@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+/* ------------- firstPart ------------- */
+
+.main-firstPart {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: relative;
+  width: 1440px;
+  height: 845px;
+}
+
+.main-firstPart-text-section {
+  margin: auto;
+  width: 540px;
+  margin-top: 200px;
+  padding: 0 15%;
+}
+
+.main-firstPart-head {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 150%;
+  letter-spacing: -0.01em;
+}
+
+.main-firstPart-img-1 {
+  position: absolute;
+  width: 180px;
+  left: 732px;
+  top: 80px;
+  border-radius: 4px;
+}
+
+.main-firstPart-img-2 {
+  position: absolute;
+  width: 180px;
+  left: 936px;
+  top: 161px;
+  border-radius: 4px;
+}
+
+.main-firstPart-img-3 {
+  position: absolute;
+  width: 180px;
+  left: 1140px;
+  top: 80px;
+  border-radius: 4px;
+}
+
+/* ------------- secondPart ------------- */
+
+.main-secondPart {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  position: relative;
+  width: 1440px;
+  height: 736px;
+}
+
+.main-secondPart-img-section {
+  margin: auto;
+}
+
+.main-secondPart-text-section {
+  margin: auto;
+  padding-right: 10em;
+}
+
+/* ------------- thirthPart ------------- */
+
+.main-thirthPart {
+  display: grid;
+  position: relative;
+  grid-template-rows: 1fr 1fr;
+  margin: 100px 250px 80px 100px;
+}
+
+.main-thirthPart-first-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.main-thirthPart-second-row {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.main-thirthPart-first-text-section {
+  padding: 0 150px 0 0;
+  width: 584px;
+  position: relative;
+  margin: auto;
+}
+
+.main-thirthPart-second-text-section {
+  padding: 0 0 0 150px;
+  width: 584px;
+  position: relative;
+  margin: auto;
+}
+
+/* ------------- fourthPart ------------- */
+
+.main-fourthPart {
+  position: relative;
+  width: 1440px;
+  height: 1176px;
+  margin-top: 200px;
+}
+
+.main-fourthPart-head {
+  text-align: center;
+
+  width: 588px;
+  margin: auto;
+}
+
+.main-fourthPart-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  width: 1225px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.main-fourthPart-content-img-section {
+  width: 384px;
+}
+
+.main-fourthPart-button-learn-more {
+  text-decoration: none;
+}
+
+/* ------------- fifthPart ------------- */
+
+.main-fifthPart {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  width: 1440px;
+  height: 596px;
+}
+
+.main-fifthPart-left-section {
+  width: 407px;
+  margin: auto;
+}
+
+.main-fifthPart-right-section {
+  display: grid;
+  row-gap: 10px;
+  width: 588px;
+}
+
+.main-fifthPart-small-head {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #424f7b;
+}
+
+.main-fifthPart-button-explore-more {
+  text-decoration: none;
+  color: #0e1734;
+  padding-left: 20px;
+}
+
+.main-fifthPart-head-button-section {
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+}
+
+.main-fifthPart-chooseRoom-section {
+  box-shadow: 0 0 30px 1px rgb(245, 240, 240);
+  background: #ffffff;
+  border-radius: 4px;
+  width: 538px;
+  padding: 20px 40px 0 40px;
+}
+
+.main-fifthPart-down-up-button {
+  border: none;
+  background: #ffffff;
+}
+
+.main-fifthPart-border-arrow {
+  position: relative;
+}
+
+.main-fifthPart-arrow {
+  position: absolute;
+  margin: 8px 0 0 -32px;
+}
+
+/* ------------- sixthPart ------------- */
+
+.main-sixthPart {
+  position: relative;
+  text-align: center;
+  width: 1440px;
+  height: 627px;
+  margin: auto;
+  margin-top: 120px;
+}
+
+.main-sixthPart-round-picture-section {
+  padding: 45px 0;
+}
+
+.main-sixthPart-text-section {
+  width: 800px;
+  margin: auto;
+}
+
+.main-sixthPart-personName-head-swipe-section {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  margin: 0 0 15px 0;
+}
+
+.main-sixthPart-swipe-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 80px;
+  margin: auto;
+}
